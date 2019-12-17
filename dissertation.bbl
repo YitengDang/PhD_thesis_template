@@ -1,0 +1,297 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Einstein1906}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Einstein}{E.}%
+     {Albert}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EA1}
+  \strng{fullhash}{EA1}
+  \field{number}{639}
+  \field{title}{Ist die Tr\"{a}gheit eines Körpers von seinem Energieinhalt
+  abh\"{a}ngig?}
+  \field{volume}{18}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Annalen der Physik}
+  \field{year}{1906}
+\endentry
+
+\entry{RN85}{book}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Alberts}{A.}%
+     {Bruce}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Johnson}{J.}%
+     {Alexander~D.}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lewis}{L.}%
+     {Julian}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raff}{R.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roberts}{R.}%
+     {Keith}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walter}{W.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Garland Science}%
+  }
+  \strng{namehash}{AB+1}
+  \strng{fullhash}{ABJADLJMDRMRKWP1}
+  \field{edition}{5th}
+  \field{isbn}{978-0815341055}
+  \field{series}{Molecular Biology of the Cell}
+  \field{title}{Molecular Biology of the Cell}
+  \field{type}{Book}
+  \field{year}{2007}
+\endentry
+
+\entry{RN29}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Alon}{A.}%
+     {Uri}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CRC Press}%
+  }
+  \strng{namehash}{AU1}
+  \strng{fullhash}{AU1}
+  \field{edition}{1}
+  \field{isbn}{9781584886426}
+  \field{pages}{320}
+  \field{title}{An Introduction to Systems Biology: Design Principles of
+  Biological Circuits}
+  \verb{url}
+  \verb https://www.crcpress.com/An-Introduction-to-Systems-Biology-Design-Prin
+  \verb ciples-of-Biological-Circuits/Alon/p/book/9781584886426
+  \endverb
+  \list{location}{1}{%
+    {Boca Raton, FL}%
+  }
+  \field{type}{Book}
+  \field{year}{2006}
+\endentry
+
+\entry{RN257}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ruse}{R.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Henning}{H.}%
+     {Adam}{A.}%
+     {}{}%
+     {Brian G.;~Scarfe}{B.~G.~S.}}%
+  }
+  \list{publisher}{1}{%
+    {Lexington Books}%
+  }
+  \strng{namehash}{RM1}
+  \strng{fullhash}{RM1}
+  \field{booktitle}{Beyond Mechanism: Putting Life Back Into Biology}
+  \field{isbn}{9780739174371}
+  \field{pages}{484}
+  \field{title}{17. From Organicism to Mechanism-and Halfway Back?}
+  \field{type}{Book Section}
+  \field{year}{2013}
+\endentry
+
+\entry{RN31}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Santos-Moreno}{S.-M.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schaerli}{S.}%
+     {Yolanda}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SMJSY1}
+  \strng{fullhash}{SMJSY1}
+  \verb{doi}
+  \verb 10.1002/adbi.201800280
+  \endverb
+  \field{issn}{2366-7478}
+  \field{number}{0}
+  \field{pages}{1800280}
+  \field{title}{Using Synthetic Biology to Engineer Spatial Patterns}
+  \verb{url}
+  \verb https://doi.org/10.1002/adbi.201800280
+  \endverb
+  \field{volume}{0}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Advanced Biosystems}
+  \field{year}{2018}
+\endentry
+
+\entry{RN249}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Scholes}{S.}%
+     {Natalie~S.}{N.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Isalan}{I.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SNSIM1}
+  \strng{fullhash}{SNSIM1}
+  \verb{doi}
+  \verb https://doi.org/10.1016/j.cbpa.2017.04.008
+  \endverb
+  \field{issn}{1367-5931}
+  \field{pages}{1\bibrangedash 7}
+  \field{title}{A three-step framework for programming pattern formation}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S1367593117300108
+  \endverb
+  \field{volume}{40}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Current Opinion in Chemical Biology}
+  \field{year}{2017}
+\endentry
+
+\entry{RN324}{online}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Barros}{B.}%
+     {Kipton}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chacko}{C.}%
+     {Ranjit}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gould}{G.}%
+     {Joshua}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gould}{G.}%
+     {Harvey}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gulbahce}{G.}%
+     {Natali}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sibley}{S.}%
+     {Jan}{J.}%
+     {}{}%
+     {Peter~Tobochnik}{P.~T.}}%
+    {{}%
+     {Wang}{W.}%
+     {Hui}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BK+1}
+  \strng{fullhash}{BKCRGJGHGNSPTJWH1}
+  \field{number}{13-11-2019}
+  \field{title}{Density of States of the 2D Ising Model}
+  \verb{url}
+  \verb http://stp.clarku.edu/simulations/ising/wanglandau/index.html
+  \endverb
+  \field{type}{Web Page}
+  \field{year}{2015}
+\endentry
+
+\entry{RN292}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Grundel}{G.}%
+     {Douwe~A.J.}{D.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GDA1}
+  \strng{fullhash}{GDA1}
+  \field{title}{Investigating travelling waves in a system of communicating
+  cells}
+  \list{institution}{1}{%
+    {Delft University of Technology}%
+  }
+  \field{type}{MSc thesis of minor internship}
+  \field{year}{2019}
+\endentry
+
+\entry{RN312}{unpublished}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sgro}{S.}%
+     {Allyson~E}{A.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Boston University}%
+  }
+  \strng{namehash}{SAE1}
+  \strng{fullhash}{SAE1}
+  \field{title}{Who Said To Do That? Understanding Multicellular Decision
+  Making, presented at the Bionanoscience departmetal seminar}
+  \field{type}{Unpublished Work}
+  \field{year}{2019}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

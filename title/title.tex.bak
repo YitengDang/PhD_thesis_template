@@ -1,0 +1,151 @@
+\begin{titlepage}
+% =========== Title page after opening cover ================
+\begin{center}
+
+%% The following lines repeat the previous page exactly.
+
+\vspace*{2\bigskipamount}
+
+%% Print the title.
+{\makeatletter
+\titlestyle\bfseries\LARGE\@title
+\makeatother}
+
+%% Print the optional subtitle.
+{\makeatletter
+    \bigskip
+    \titlefont\titleshape\Large\@subtitle
+\makeatother}
+
+%% Uncomment the following lines to insert a vertically centered picture into
+%% the title page.
+%\vfill
+%\includegraphics{title}
+\vfill
+
+%% Apart from the names and dates, the following text is dictated by the
+%% promotieregelement.
+
+{\Large\bfseries Proefschrift}
+
+\bigskip
+\bigskip
+
+ter verkrijging van de graad van doctor
+
+aan de Technische Universiteit Delft,
+
+op gezag van de Rector Magnificus prof.~ir.~T.H.J.J.~van der Hagen,
+
+voorzitter van het College voor Promoties,
+
+in het openbaar te verdedigen op ...dag ... om ... uur
+
+\bigskip
+\bigskip
+
+door
+
+\bigskip
+\bigskip
+
+%% Print the full name of the author.
+\makeatletter
+{\Large\titlefont\bfseries\@firstname\ {\titleshape\@lastname}}
+\makeatother
+
+\bigskip
+\bigskip
+
+Fachlehrer für Mathematik und Physik, \\
+Eidgenössische Polytechnische Schule, Zürich, Zwitserland,
+
+geboren te Ulm, Duitsland.
+
+%% Extra whitespace at the bottom.
+\vspace*{2\bigskipamount}
+
+\end{center}
+
+\clearpage
+\thispagestyle{empty}
+
+%% The following line is dictated by the promotieregelement.
+\noindent Dit proefschrift is goedgekeurd door de
+
+%% List the promotors (supervisors).
+\medskip\noindent
+\begin{tabular}{l}
+    promotor: prof.\ dr.\ A.\ Kleiner \\
+    copromotor: dr.\ A.A.\ Aaronson
+\end{tabular}
+
+\bigskip
+\noindent Samenstelling promotiecommissie:
+
+%% List the committee members, starting with the Rector Magnificus and the
+%% promotor(s) and ending with the reserve members.
+\medskip\noindent
+\begin{tabular}{p{5cm}l}
+    Rector Magnificus, & voorzitter \\
+    promotor: prof.\ dr.\ A.\ Kleiner, & Eidgenössische Polytechnische Schule \\
+    copromotor: dr.\ A.A.\ Aaronson, & Eidgenössische Polytechnische Schule \\
+
+    \medskip
+    \mbox{\emph{Onafhankelijke leden:}} & \\
+    
+    Prof.\ dr.\ A.\ Jansen & Technische Universiteit Delft \\
+    % Special case, only for very long names
+    \mbox{Prof.\ dr.\ ir.\ A.B.C.D.\ van de Lange-Achternaam} & \\
+      & Technische Universiteit Delft \\
+    Prof.\.dr.\ N.\ Nescio & Politecnico di Milano, Itali\"e \\
+    Prof.\ dr.\ ir.\ J.\ Doe, & Technische Universiteit Delft, reservelid \\
+    
+    
+\end{tabular}
+
+\vfill
+\begin{center}
+\begin{tabular}{ccc}
+    \includegraphics[height=0.4in]{title/logos/tudelft} &
+    %\hspace{2em}
+    \includegraphics[height=0.4in]{title/logos/casimir}  &
+    %\hspace{2em}
+    \includegraphics[height=0.4in]{title/logos/Logo_Kavli_institute} 
+    \\
+    \smallskip
+    %\hspace{2em}
+    \includegraphics[height=0.4in]{title/logos/nwo} &
+    %\hspace{2em}
+    \includegraphics[height=0.4in]{title/logos/Nanofront_logo} &    
+    %\hspace{2em}     
+    \includegraphics[height=0.4in]{title/logos/BN_logo}
+\end{tabular}
+\end{center}
+\vfill
+
+\noindent
+\begin{tabular}{@{}p{0.2\textwidth}@{}p{0.8\textwidth}}
+    \textit{Keywords:} & general relativity, quantum field theory
+     \\[\medskipamount]
+    \textit{Printed by:} & Ipskamp Printing, Enschede \\[\medskipamount]
+    \textit{Front \& Back:} & Albert Einstein
+\end{tabular}
+
+\vspace{3\bigskipamount}
+
+\noindent Copyright \textcopyright\ 1905 by A.~Einstein
+
+%% Uncomment the following lines if this dissertation is part of the Casimir PhD
+%% Series, or a similar research school.
+\medskip
+\noindent Casimir PhD Series, Delft-Leiden ....
+
+\medskip
+\noindent ISBN 000-00-0000-000-0
+
+\medskip
+\noindent An electronic version of this dissertation is available at \\
+\url{http://repository.tudelft.nl/}.
+
+\end{titlepage}

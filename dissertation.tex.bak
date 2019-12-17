@@ -1,0 +1,90 @@
+\documentclass[nativefonts]{dissertation} % use native fonts
+
+%\usepackage{tocloft}
+
+% Add bibliography as external .bib file; use biblatex 
+\addbibresource{bibliography.bib}
+
+\begin{document}
+
+%% Specify the title and author of the thesis. This information will be used on
+%% the title page (in title/title.tex) and in the metadata of the final PDF.
+\title[Optional Subtitle]{Fancy thesis title}
+\author{Albert}{Einstein}
+
+%% Front matter: Use Roman numerals for the page numbers of the title pages and table of
+%% contents.
+\frontmatter
+
+\include{title/title}
+
+%% The (optional) dedication can be used to thank someone or display a
+%% significant quotation.
+\dedication{\epigraph{Science is a wonderful thing \\ if one does not have to earn one's living at it.}{Albert Einstein}}
+
+% Table of Contents
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+% Summary
+\include{summary/summary}
+
+% Preface
+\include{preface/preface}
+
+%% Use Arabic numerals for the page numbers of the chapters.
+\mainmatter
+
+%% Turn on thumb indices.
+\thumbtrue
+
+% Chapter
+\include{chapter-1/chapter-1}
+% Chapter
+\include{chapter-2/chapter-2}
+
+% Conclusion
+\include{conclusion/conclusion}
+
+
+% Epilogue
+\include{epilogue/epilogue}
+
+%% Back matter
+\backmatter
+
+% Acknowledgements
+\include{acks/acks}
+
+%% Use letters for the chapter numbers of the appendices.
+\appendix
+\include{appendix-a/appendix-a}
+
+%% Turn off thumb indices for unnumbered chapters.
+\thumbfalse
+
+% Curriculum Vitae
+\include{cv/cv}
+%\include{publications/publications}
+
+% List of Figures
+%\include{list_of_figures\list_of_figures}
+\setheader{List of Figures}
+\makeatletter
+\renewcommand*\l@figure{\@dottedtocline{1}{1.5em}{3.3em}}
+\makeatother
+\listoffigures
+\clearpage
+
+% Bibliography
+\setheader{Bibliography}
+\nocite{*} % include all references in bib file
+\printbibliography
+[
+heading=bibintoc,
+title={References}
+]
+\clearpage
+
+
+\end{document}
